@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #282c34;
+    color: white;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+.profile {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.foto-profil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.skills {
+    display: flex;
+    justify-content: right;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.skill {
+    text-align: center;
+    max-width: 200px;
+}
+
+.skill img {
+    width: 100px;
+    height: 100px;
+    text-align: below;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #282c34;
+    color: white;
+}
